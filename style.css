@@ -1,0 +1,81 @@
+html{
+  height:100%;
+  background-image: url('https://i.pinimg.com/564x/70/6f/28/706f281185a1aaf62f59f7abbb76bdc1.jpg');
+  background-size:cover;
+}
+
+#banner{
+  padding-top:22%;
+  font-family:'Berkshire Swash';
+  font-size:35px;
+  display: flex;
+  justify-content:center;
+  color:white;
+}
+  
+#heading{
+  height:100%;
+  font-family:'Kaushan Script';
+  font-size:20px;
+  display:flex;
+  justify-content:space-around;
+  color:black;
+}
+
+.navbar {
+  display:flex;
+  justify-content:space-around;
+  background-color:white;
+  position:fixed; 
+  top:0; 
+  left:0;
+  width:100%; 
+}
+
+.navbar a {
+  float:left;
+  display: block;
+  text-align:center;
+  padding:14px 16px;
+  text-decoration:none;
+  color:orchid;
+  font-family:'Kaushan Script';
+}
+#about-content{
+  display:flex;
+  justify-content:space-around;
+  margin-top:20%;
+  
+
+}
+
+img{
+  border-radius:50%;
+  border:solid 5px white;
+}
+
+.my-description{
+   background:white;
+   margin:3%;
+   padding:4%;
+   font-family:'Kaushan Script';
+ }
+ .project-container{
+   margin-top:10%;
+   display:flex;
+   width:250%;
+   height:125%;
+   justify-content: space-between;
+ }
+ 
+ span{
+   background:white;
+   width:30%;
+   height:20%;
+   margin:1%;
+   padding:.5%;
+   font-family:'kaushan script';
+   color:orchid;
+   align-items:center;
+ }
+ 
